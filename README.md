@@ -1,6 +1,6 @@
 # Bing Map Web App 
 
-##### backend functions finished -- frontend performance under developing
+   ##### backend functions finished -- frontend performance under development
 
 
 * Created Bing Map based web application using HTML, CSS, BootStrap, JavaScript, JQuery, PHP, and SQL
