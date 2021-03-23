@@ -1,0 +1,172 @@
+.button button {
+    background-color: burlywood; /* Green background */
+    color: black; /* White text */
+    padding: 13px 30px; /* Some padding */
+    margin: 10px;
+    
+    display: block;
+}
+.row{
+    margin-top: 20px;
+}
+.information {
+    width: 260px;
+    height: 1200px;
+    float: left;
+
+
+}
+
+
+
+#input {
+
+    clear: both;
+    margin-top: 20px;
+   
+    padding: 10px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+#clear {
+    position: absolute;
+    
+    background-color: burlywood; /* Green background */
+    color: black; /* White text */
+    padding: 5px 5px; /* Some padding */
+
+}
+
+#myMap {
+    width: 540px;
+    height: 600px;
+
+
+    float: left;
+}
+
+#panel {
+    float: left;
+    overflow-y: scroll;
+    background-color: cornsilk;
+
+    height: 600px;
+    width: 370px;
+}
+
+input[type=text], select {
+    width: 20%;
+    padding: 2px 10px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: brown;
+    color: white;
+    padding: 2px 2px;
+    margin: 2px 0;
+    border-radius: 2px;
+
+}
+
+.headimg img {
+    margin-left: 15px;
+    width: 100px;
+    height: 70px;
+}
+
+.map {
+    width: 550px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+.starability-slot {
+    display: block;
+    position: relative;
+    width: 150px;
+    min-height: 35px;
+    padding: 0;
+    border: none
+}
+
+.starability-slot > input {
+    position: absolute;
+    margin-right: -100%;
+    opacity: 0
+}
+
+.starability-slot > input:checked ~ label, .starability-slot > input:hover ~ label {
+    background-position: 0 -30px;
+    transition: background-position .7s
+}
+
+.starability-slot > label {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    color: transparent;
+    cursor: pointer;
+    background-image: url(photos/icons.png);
+    background-repeat: no-repeat
+}
+
+.up {
+    width: 570px;
+    height: 150px;
+    float: left;
+}
+
+.up .left {
+    width: 250px;
+    display: inline-block;
+}
+
+.left p {
+    display: inline-block;
+}
+
+.up .right {
+    overflow: hidden;
+    width: 250px;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+
+.middle {
+    float: right;
+}
+
+.left .input-group input[type=text] {
+    width: 35px;
+}
+
+.content {
+    margin:0px 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: bold;
+
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+
